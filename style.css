@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-color: #e3e3e3;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 24px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mainPicture {
+  width: 80%;
+  max-width: 1024px;
+  border-radius: 15px;
+  box-shadow: lightblue 2px 2px 5px;
+}
+
+p {
+  margin: 24px 0;
+}
+
+.reasonsText {
+  font-size: 36px;
+}
+
+.listItem {
+  height: 50px;
+}
+
+.listItem::before {
+  background-image: url("https://d29fhpw069ctt2.cloudfront.net/icon/image/49037/preview.svg");
+  background-size: 36px 36px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  content: "";
+}
